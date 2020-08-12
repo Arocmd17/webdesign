@@ -31,7 +31,7 @@ const NavBar1 = () =>{
                 </Text>
               </pre>
             </Box>
-            <Box mx="5%" w={250}>
+            <Box fontSize="25px" textAlign="left">
               <pre>
                 <FontAwesomeIcon icon={faTwitterSquare} />  <FontAwesomeIcon icon={faLinkedin} />
               </pre>

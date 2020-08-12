@@ -338,7 +338,7 @@ const Footer = () =>{
                   <br/>
                   <b>Follow us</b>
                   <br/>
-                    <FontAwesomeIcon icon={faTwitterSquare} />  <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faTwitterSquare} fontSize="25px"/>  <FontAwesomeIcon icon={faLinkedin} />
                     <br/>
                   <b>Copyright 2018: VIZON Research Limited. All rights reserved</b>
                 </Text>
