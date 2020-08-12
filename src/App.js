@@ -112,7 +112,7 @@ const Intro = () =>{
               <Text mt={2} fontSize="20px">
               With an active presence in <b>24 African countries</b>, we provide high quality geospatial and field data services to multinational organisations, investors, financial institutions, agencies and consulting firms.
               </Text>
-              <Text mt={2} >
+              <Text mt={2} fontWeight="bold" >
               For proprietary baseline surveys and customized feasibility studies, contact us via +2348182071037 or info@vizonresearch.com
               </Text>
           </Box>
@@ -266,9 +266,11 @@ const SectionFour = () =>{
                 >
                 <Image src={item.picture} alt={item.alt} w='100%'/>
                 <Box>
-                  <Text bg="white" w="50%" mt="-10px" pos="relative">{item.title}</Text>
+                  <Text bg="white" w="50%" mt="-10px" pos="relative" 
+                    fontWeight="bold"
+                  >{item.title}</Text>
                   <Box p={4} h={270}>
-                    <Text color="red.600"  mt="5px">
+                    <Text fontWeight="bold" color="red.600"  mt="5px">
                     {item.subtitle}
                     </Text>
                     <Text   mt="5px">
@@ -325,8 +327,8 @@ const Footer = () =>{
             <Box w="80%" textAlign="left" pl="2%" pr="10%" mb={-1} >
               <pre>
                 <Text>
-                  <b>Lagos Office</b><br/>
                   <br/>
+                  <b>Lagos Office</b><br/>
                   Wing A, 12th Floor,<br/>
                   Elephant House, Marina,<br/>
                   Lagos Island, Nigeria.<br/>
@@ -337,6 +339,7 @@ const Footer = () =>{
                   <b>Follow us</b>
                   <br/>
                     <FontAwesomeIcon icon={faTwitterSquare} />  <FontAwesomeIcon icon={faLinkedin} />
+                    <br/>
                   <b>Copyright 2018: VIZON Research Limited. All rights reserved</b>
                 </Text>
               </pre>
